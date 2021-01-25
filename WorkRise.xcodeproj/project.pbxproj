@@ -3,19 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49E804C22894F1C6C7C667AA /* Pods_WorkRise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB01423F73EBDD0455B941AB /* Pods_WorkRise.framework */; };
 		6D585E0525BF70AD00DDD4CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D585E0425BF70AD00DDD4CE /* AppDelegate.swift */; };
 		6D585E0725BF70AD00DDD4CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D585E0625BF70AD00DDD4CE /* SceneDelegate.swift */; };
 		6D585E0925BF70AD00DDD4CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D585E0825BF70AD00DDD4CE /* ViewController.swift */; };
 		6D585E0C25BF70AD00DDD4CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D585E0A25BF70AD00DDD4CE /* Main.storyboard */; };
 		6D585E0E25BF70AE00DDD4CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D585E0D25BF70AE00DDD4CE /* Assets.xcassets */; };
 		6D585E1125BF70AE00DDD4CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D585E0F25BF70AE00DDD4CE /* LaunchScreen.storyboard */; };
+		6D585E1D25BF722C00DDD4CE /* GoogleService-Info.release.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D585E1C25BF722C00DDD4CE /* GoogleService-Info.release.plist */; };
+		6D585E2525BF742700DDD4CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D585E0825BF70AD00DDD4CE /* ViewController.swift */; };
+		6D585E2625BF742700DDD4CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D585E0425BF70AD00DDD4CE /* AppDelegate.swift */; };
+		6D585E2725BF742700DDD4CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D585E0625BF70AD00DDD4CE /* SceneDelegate.swift */; };
+		6D585E2C25BF742700DDD4CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D585E0F25BF70AE00DDD4CE /* LaunchScreen.storyboard */; };
+		6D585E2D25BF742700DDD4CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D585E0D25BF70AE00DDD4CE /* Assets.xcassets */; };
+		6D585E2F25BF742700DDD4CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D585E0A25BF70AD00DDD4CE /* Main.storyboard */; };
+		6D585E4125BF758F00DDD4CE /* GoogleService-Info.debug.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D585E3B25BF758B00DDD4CE /* GoogleService-Info.debug.plist */; };
+		870AB7397D8225F24B55028B /* Pods_WorkRise_Development.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EBC77733383F2C4045591FC /* Pods_WorkRise_Development.framework */; };
+		BD45298A23588FDB424EFD3A /* Pods_WorkRise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB01423F73EBDD0455B941AB /* Pods_WorkRise.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1EBC77733383F2C4045591FC /* Pods_WorkRise_Development.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkRise_Development.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35DBC0E03CE77539BD063B63 /* Pods-WorkRise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkRise.release.xcconfig"; path = "Target Support Files/Pods-WorkRise/Pods-WorkRise.release.xcconfig"; sourceTree = "<group>"; };
 		6D585E0125BF70AD00DDD4CE /* WorkRise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkRise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D585E0425BF70AD00DDD4CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D585E0625BF70AD00DDD4CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +37,14 @@
 		6D585E0D25BF70AE00DDD4CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D585E1025BF70AE00DDD4CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D585E1225BF70AE00DDD4CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D585E1C25BF722C00DDD4CE /* GoogleService-Info.release.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.release.plist"; sourceTree = "<group>"; };
+		6D585E3325BF742700DDD4CE /* WorkRise-Development.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WorkRise-Development.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D585E3425BF742700DDD4CE /* Info.debug.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.debug.plist; path = /Users/rowan_rhodes/git/WorkRise/Info.debug.plist; sourceTree = "<absolute>"; };
+		6D585E3B25BF758B00DDD4CE /* GoogleService-Info.debug.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.debug.plist"; sourceTree = "<group>"; };
+		AB01423F73EBDD0455B941AB /* Pods_WorkRise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkRise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C469AE1DCF9302757101A088 /* Pods-WorkRise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkRise.debug.xcconfig"; path = "Target Support Files/Pods-WorkRise/Pods-WorkRise.debug.xcconfig"; sourceTree = "<group>"; };
+		DCCF9C154C8FE7435F0AE3C5 /* Pods-WorkRise-Development.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkRise-Development.release.xcconfig"; path = "Target Support Files/Pods-WorkRise-Development/Pods-WorkRise-Development.release.xcconfig"; sourceTree = "<group>"; };
+		EB4122280539EB34E43FA9A2 /* Pods-WorkRise-Development.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkRise-Development.debug.xcconfig"; path = "Target Support Files/Pods-WorkRise-Development/Pods-WorkRise-Development.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +52,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD45298A23588FDB424EFD3A /* Pods_WorkRise.framework in Frameworks */,
+				49E804C22894F1C6C7C667AA /* Pods_WorkRise.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D585E2825BF742700DDD4CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				870AB7397D8225F24B55028B /* Pods_WorkRise_Development.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A673FB5CBA24EBC28AB84D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB01423F73EBDD0455B941AB /* Pods_WorkRise.framework */,
+				1EBC77733383F2C4045591FC /* Pods_WorkRise_Development.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0AE5AB465E65CF983426D02F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C469AE1DCF9302757101A088 /* Pods-WorkRise.debug.xcconfig */,
+				35DBC0E03CE77539BD063B63 /* Pods-WorkRise.release.xcconfig */,
+				EB4122280539EB34E43FA9A2 /* Pods-WorkRise-Development.debug.xcconfig */,
+				DCCF9C154C8FE7435F0AE3C5 /* Pods-WorkRise-Development.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6D585DF825BF70AD00DDD4CE = {
 			isa = PBXGroup;
 			children = (
 				6D585E0325BF70AD00DDD4CE /* WorkRise */,
 				6D585E0225BF70AD00DDD4CE /* Products */,
+				0AE5AB465E65CF983426D02F /* Pods */,
+				0A673FB5CBA24EBC28AB84D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				6D585E0125BF70AD00DDD4CE /* WorkRise.app */,
+				6D585E3325BF742700DDD4CE /* WorkRise-Development.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,6 +110,8 @@
 		6D585E0325BF70AD00DDD4CE /* WorkRise */ = {
 			isa = PBXGroup;
 			children = (
+				6D585E3B25BF758B00DDD4CE /* GoogleService-Info.debug.plist */,
+				6D585E1C25BF722C00DDD4CE /* GoogleService-Info.release.plist */,
 				6D585E0425BF70AD00DDD4CE /* AppDelegate.swift */,
 				6D585E0625BF70AD00DDD4CE /* SceneDelegate.swift */,
 				6D585E0825BF70AD00DDD4CE /* ViewController.swift */,
@@ -63,6 +119,7 @@
 				6D585E0D25BF70AE00DDD4CE /* Assets.xcassets */,
 				6D585E0F25BF70AE00DDD4CE /* LaunchScreen.storyboard */,
 				6D585E1225BF70AE00DDD4CE /* Info.plist */,
+				6D585E3425BF742700DDD4CE /* Info.debug.plist */,
 			);
 			path = WorkRise;
 			sourceTree = "<group>";
@@ -74,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D585E1525BF70AE00DDD4CE /* Build configuration list for PBXNativeTarget "WorkRise" */;
 			buildPhases = (
+				FA6B0280C7EB920CF7F94FD5 /* [CP] Check Pods Manifest.lock */,
 				6D585DFD25BF70AD00DDD4CE /* Sources */,
 				6D585DFE25BF70AD00DDD4CE /* Frameworks */,
 				6D585DFF25BF70AD00DDD4CE /* Resources */,
+				9DC5939F4F786B359013AD9E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -85,6 +144,25 @@
 			name = WorkRise;
 			productName = WorkRise;
 			productReference = 6D585E0125BF70AD00DDD4CE /* WorkRise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D585E2225BF742700DDD4CE /* WorkRise-Development */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D585E3025BF742700DDD4CE /* Build configuration list for PBXNativeTarget "WorkRise-Development" */;
+			buildPhases = (
+				0B004773A6BE30E5D78BBB3C /* [CP] Check Pods Manifest.lock */,
+				6D585E2425BF742700DDD4CE /* Sources */,
+				6D585E2825BF742700DDD4CE /* Frameworks */,
+				6D585E2A25BF742700DDD4CE /* Resources */,
+				5072A0AFEDDFE07E8A4D8336 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WorkRise-Development";
+			productName = WorkRise;
+			productReference = 6D585E3325BF742700DDD4CE /* WorkRise-Development.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -115,6 +193,7 @@
 			projectRoot = "";
 			targets = (
 				6D585E0025BF70AD00DDD4CE /* WorkRise */,
+				6D585E2225BF742700DDD4CE /* WorkRise-Development */,
 			);
 		};
 /* End PBXProject section */
@@ -126,11 +205,104 @@
 			files = (
 				6D585E1125BF70AE00DDD4CE /* LaunchScreen.storyboard in Resources */,
 				6D585E0E25BF70AE00DDD4CE /* Assets.xcassets in Resources */,
+				6D585E1D25BF722C00DDD4CE /* GoogleService-Info.release.plist in Resources */,
 				6D585E0C25BF70AD00DDD4CE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6D585E2A25BF742700DDD4CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D585E2C25BF742700DDD4CE /* LaunchScreen.storyboard in Resources */,
+				6D585E2D25BF742700DDD4CE /* Assets.xcassets in Resources */,
+				6D585E2F25BF742700DDD4CE /* Main.storyboard in Resources */,
+				6D585E4125BF758F00DDD4CE /* GoogleService-Info.debug.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B004773A6BE30E5D78BBB3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WorkRise-Development-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5072A0AFEDDFE07E8A4D8336 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorkRise-Development/Pods-WorkRise-Development-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorkRise-Development/Pods-WorkRise-Development-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WorkRise-Development/Pods-WorkRise-Development-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DC5939F4F786B359013AD9E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorkRise/Pods-WorkRise-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorkRise/Pods-WorkRise-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WorkRise/Pods-WorkRise-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA6B0280C7EB920CF7F94FD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WorkRise-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6D585DFD25BF70AD00DDD4CE /* Sources */ = {
@@ -140,6 +312,16 @@
 				6D585E0925BF70AD00DDD4CE /* ViewController.swift in Sources */,
 				6D585E0525BF70AD00DDD4CE /* AppDelegate.swift in Sources */,
 				6D585E0725BF70AD00DDD4CE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D585E2425BF742700DDD4CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D585E2525BF742700DDD4CE /* ViewController.swift in Sources */,
+				6D585E2625BF742700DDD4CE /* AppDelegate.swift in Sources */,
+				6D585E2725BF742700DDD4CE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,16 +465,22 @@
 		};
 		6D585E1625BF70AE00DDD4CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C469AE1DCF9302757101A088 /* Pods-WorkRise.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AZ4P4F7384;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+				);
 				INFOPLIST_FILE = WorkRise/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = rowanrhodes.WorkRise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -302,6 +490,7 @@
 		};
 		6D585E1725BF70AE00DDD4CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35DBC0E03CE77539BD063B63 /* Pods-WorkRise.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,7 +501,54 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = rowanrhodes.WorkRise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6D585E3125BF742700DDD4CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB4122280539EB34E43FA9A2 /* Pods-WorkRise-Development.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AZ4P4F7384;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Info.debug.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "-DEVELOPMENT";
+				PRODUCT_BUNDLE_IDENTIFIER = "rowanrhodes.WorkRise-Dev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D585E3225BF742700DDD4CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCCF9C154C8FE7435F0AE3C5 /* Pods-WorkRise-Development.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AZ4P4F7384;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.debug.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "-DEVELOPMENT";
+				PRODUCT_BUNDLE_IDENTIFIER = "rowanrhodes.WorkRise-Dev";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -336,6 +572,15 @@
 			buildConfigurations = (
 				6D585E1625BF70AE00DDD4CE /* Debug */,
 				6D585E1725BF70AE00DDD4CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D585E3025BF742700DDD4CE /* Build configuration list for PBXNativeTarget "WorkRise-Development" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D585E3125BF742700DDD4CE /* Debug */,
+				6D585E3225BF742700DDD4CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
