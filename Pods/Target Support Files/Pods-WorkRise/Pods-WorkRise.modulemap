@@ -1,6 +1,0 @@
-framework module Pods_WorkRise {
-  umbrella header "Pods-WorkRise-umbrella.h"
-
-  export *
-  module * { export * }
-}
