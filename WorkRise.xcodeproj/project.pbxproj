@@ -14,7 +14,6 @@
 		6D585E0C25BF70AD00DDD4CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D585E0A25BF70AD00DDD4CE /* Main.storyboard */; };
 		6D585E0E25BF70AE00DDD4CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D585E0D25BF70AE00DDD4CE /* Assets.xcassets */; };
 		6D585E1125BF70AE00DDD4CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D585E0F25BF70AE00DDD4CE /* LaunchScreen.storyboard */; };
-		6D585E1D25BF722C00DDD4CE /* GoogleService-Info.release.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D585E1C25BF722C00DDD4CE /* GoogleService-Info.release.plist */; };
 		6D585E2525BF742700DDD4CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D585E0825BF70AD00DDD4CE /* ViewController.swift */; };
 		6D585E2625BF742700DDD4CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D585E0425BF70AD00DDD4CE /* AppDelegate.swift */; };
 		6D585E2725BF742700DDD4CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D585E0625BF70AD00DDD4CE /* SceneDelegate.swift */; };
@@ -22,6 +21,7 @@
 		6D585E2D25BF742700DDD4CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D585E0D25BF70AE00DDD4CE /* Assets.xcassets */; };
 		6D585E2F25BF742700DDD4CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D585E0A25BF70AD00DDD4CE /* Main.storyboard */; };
 		6D585E4125BF758F00DDD4CE /* GoogleService-Info.debug.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D585E3B25BF758B00DDD4CE /* GoogleService-Info.debug.plist */; };
+		6D585E8C25C14A1200DDD4CE /* GoogleService-Info.release.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D585E8B25C14A1200DDD4CE /* GoogleService-Info.release.plist */; };
 		870AB7397D8225F24B55028B /* Pods_WorkRise_Development.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EBC77733383F2C4045591FC /* Pods_WorkRise_Development.framework */; };
 		BD45298A23588FDB424EFD3A /* Pods_WorkRise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB01423F73EBDD0455B941AB /* Pods_WorkRise.framework */; };
 /* End PBXBuildFile section */
@@ -37,10 +37,10 @@
 		6D585E0D25BF70AE00DDD4CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D585E1025BF70AE00DDD4CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D585E1225BF70AE00DDD4CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6D585E1C25BF722C00DDD4CE /* GoogleService-Info.release.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.release.plist"; sourceTree = "<group>"; };
 		6D585E3325BF742700DDD4CE /* WorkRise-Development.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WorkRise-Development.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D585E3425BF742700DDD4CE /* Info.debug.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.debug.plist; path = /Users/rowan_rhodes/git/WorkRise/Info.debug.plist; sourceTree = "<absolute>"; };
 		6D585E3B25BF758B00DDD4CE /* GoogleService-Info.debug.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.debug.plist"; sourceTree = "<group>"; };
+		6D585E8B25C14A1200DDD4CE /* GoogleService-Info.release.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.release.plist"; sourceTree = "<group>"; };
 		AB01423F73EBDD0455B941AB /* Pods_WorkRise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkRise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C469AE1DCF9302757101A088 /* Pods-WorkRise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkRise.debug.xcconfig"; path = "Target Support Files/Pods-WorkRise/Pods-WorkRise.debug.xcconfig"; sourceTree = "<group>"; };
 		DCCF9C154C8FE7435F0AE3C5 /* Pods-WorkRise-Development.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkRise-Development.release.xcconfig"; path = "Target Support Files/Pods-WorkRise-Development/Pods-WorkRise-Development.release.xcconfig"; sourceTree = "<group>"; };
@@ -111,7 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				6D585E3B25BF758B00DDD4CE /* GoogleService-Info.debug.plist */,
-				6D585E1C25BF722C00DDD4CE /* GoogleService-Info.release.plist */,
+				6D585E8B25C14A1200DDD4CE /* GoogleService-Info.release.plist */,
 				6D585E0425BF70AD00DDD4CE /* AppDelegate.swift */,
 				6D585E0625BF70AD00DDD4CE /* SceneDelegate.swift */,
 				6D585E0825BF70AD00DDD4CE /* ViewController.swift */,
@@ -204,8 +204,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D585E1125BF70AE00DDD4CE /* LaunchScreen.storyboard in Resources */,
+				6D585E8C25C14A1200DDD4CE /* GoogleService-Info.release.plist in Resources */,
 				6D585E0E25BF70AE00DDD4CE /* Assets.xcassets in Resources */,
-				6D585E1D25BF722C00DDD4CE /* GoogleService-Info.release.plist in Resources */,
 				6D585E0C25BF70AD00DDD4CE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
