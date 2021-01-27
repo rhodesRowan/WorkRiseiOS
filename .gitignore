@@ -40,3 +40,6 @@ Backup[ ]of[ ]*.numbers/
 Pods/
 GoogleService-Info.release.plist
 GoogleService-Info.debug.plist	
+
+codesigndoc
+codesigndoc_exports/
