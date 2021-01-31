@@ -13,7 +13,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        FirebaseApp.configure()
+        configureFirebase()
         return true
     }
 
@@ -31,6 +31,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
 
+    func configureFirebase() {
+        
+        var filePath:String!
+        #if DEBUG
+            print("[FIREBASE] Development mode.")
+            filePath = Bundle.main.path(forResource: "GoogleService-Info", ofType: "plist", inDirectory: "Development")
+        #else
+            print("[FIREBASE] Production mode.")
+            filePath = Bundle.main.path(forResource: "GoogleService-Info", ofType: "plist", inDirectory: "Release")
+        #endif
+        
+        let options = FirebaseOptions.init(contentsOfFile: filePath)
+        FirebaseApp.configure(options: options!)
+    }
 
 }
 

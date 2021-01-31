@@ -2,7 +2,6 @@
 platform :ios, '11.0'
 
 def shared_pods
-  pod 'Firebase/Analytics'
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
 end
