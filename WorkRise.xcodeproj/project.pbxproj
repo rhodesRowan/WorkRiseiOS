@@ -112,7 +112,8 @@
 		6D585E0325BF70AD00DDD4CE /* WorkRise */ = {
 			isa = PBXGroup;
 			children = (
-				6D585F9E25C6D58100DDD4CE /* Firebase */,
+				6D585FDD25C6DEB500DDD4CE /* Release */,
+				6D585FDC25C6DEAA00DDD4CE /* Development */,
 				6D585E0425BF70AD00DDD4CE /* AppDelegate.swift */,
 				6D585E0625BF70AD00DDD4CE /* SceneDelegate.swift */,
 				6D585E0825BF70AD00DDD4CE /* ViewController.swift */,
@@ -123,15 +124,6 @@
 				6D585E3425BF742700DDD4CE /* Info.debug.plist */,
 			);
 			path = WorkRise;
-			sourceTree = "<group>";
-		};
-		6D585F9E25C6D58100DDD4CE /* Firebase */ = {
-			isa = PBXGroup;
-			children = (
-				6D585FDD25C6DEB500DDD4CE /* Release */,
-				6D585FDC25C6DEAA00DDD4CE /* Development */,
-			);
-			path = Firebase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
