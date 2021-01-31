@@ -20,10 +20,10 @@
 		6D585E2C25BF742700DDD4CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D585E0F25BF70AE00DDD4CE /* LaunchScreen.storyboard */; };
 		6D585E2D25BF742700DDD4CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D585E0D25BF70AE00DDD4CE /* Assets.xcassets */; };
 		6D585E2F25BF742700DDD4CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D585E0A25BF70AD00DDD4CE /* Main.storyboard */; };
-		6D585FB425C6D72700DDD4CE /* Release in Resources */ = {isa = PBXBuildFile; fileRef = 6D585F9925C6D55100DDD4CE /* Release */; };
-		6D585FB525C6D72700DDD4CE /* Development in Resources */ = {isa = PBXBuildFile; fileRef = 6D585F9825C6D54500DDD4CE /* Development */; };
-		6D585FCA25C6D7A100DDD4CE /* Release in Resources */ = {isa = PBXBuildFile; fileRef = 6D585F9925C6D55100DDD4CE /* Release */; };
-		6D585FCD25C6D7A400DDD4CE /* Development in Resources */ = {isa = PBXBuildFile; fileRef = 6D585F9825C6D54500DDD4CE /* Development */; };
+		6D585FDE25C6DED100DDD4CE /* Release in Resources */ = {isa = PBXBuildFile; fileRef = 6D585FDD25C6DEB500DDD4CE /* Release */; };
+		6D585FDF25C6DED100DDD4CE /* Development in Resources */ = {isa = PBXBuildFile; fileRef = 6D585FDC25C6DEAA00DDD4CE /* Development */; };
+		6D585FE225C6DED700DDD4CE /* Release in Resources */ = {isa = PBXBuildFile; fileRef = 6D585FDD25C6DEB500DDD4CE /* Release */; };
+		6D585FE325C6DED700DDD4CE /* Development in Resources */ = {isa = PBXBuildFile; fileRef = 6D585FDC25C6DEAA00DDD4CE /* Development */; };
 		870AB7397D8225F24B55028B /* Pods_WorkRise_Development.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EBC77733383F2C4045591FC /* Pods_WorkRise_Development.framework */; };
 		BD45298A23588FDB424EFD3A /* Pods_WorkRise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB01423F73EBDD0455B941AB /* Pods_WorkRise.framework */; };
 /* End PBXBuildFile section */
@@ -41,8 +41,8 @@
 		6D585E1225BF70AE00DDD4CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D585E3325BF742700DDD4CE /* WorkRise-Development.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WorkRise-Development.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D585E3425BF742700DDD4CE /* Info.debug.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.debug.plist; path = /Users/rowan_rhodes/git/WorkRise/Info.debug.plist; sourceTree = "<absolute>"; };
-		6D585F9825C6D54500DDD4CE /* Development */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Development; sourceTree = "<group>"; };
-		6D585F9925C6D55100DDD4CE /* Release */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Release; sourceTree = "<group>"; };
+		6D585FDC25C6DEAA00DDD4CE /* Development */ = {isa = PBXFileReference; lastKnownFileType = text; name = Development; path = WorkRise/Development; sourceTree = SOURCE_ROOT; };
+		6D585FDD25C6DEB500DDD4CE /* Release */ = {isa = PBXFileReference; lastKnownFileType = text; name = Release; path = WorkRise/Release; sourceTree = SOURCE_ROOT; };
 		AB01423F73EBDD0455B941AB /* Pods_WorkRise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkRise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C469AE1DCF9302757101A088 /* Pods-WorkRise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkRise.debug.xcconfig"; path = "Target Support Files/Pods-WorkRise/Pods-WorkRise.debug.xcconfig"; sourceTree = "<group>"; };
 		DCCF9C154C8FE7435F0AE3C5 /* Pods-WorkRise-Development.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkRise-Development.release.xcconfig"; path = "Target Support Files/Pods-WorkRise-Development/Pods-WorkRise-Development.release.xcconfig"; sourceTree = "<group>"; };
@@ -128,8 +128,8 @@
 		6D585F9E25C6D58100DDD4CE /* Firebase */ = {
 			isa = PBXGroup;
 			children = (
-				6D585F9925C6D55100DDD4CE /* Release */,
-				6D585F9825C6D54500DDD4CE /* Development */,
+				6D585FDD25C6DEB500DDD4CE /* Release */,
+				6D585FDC25C6DEAA00DDD4CE /* Development */,
 			);
 			path = Firebase;
 			sourceTree = "<group>";
@@ -213,9 +213,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D585FCA25C6D7A100DDD4CE /* Release in Resources */,
+				6D585FE225C6DED700DDD4CE /* Release in Resources */,
+				6D585FE325C6DED700DDD4CE /* Development in Resources */,
 				6D585E1125BF70AE00DDD4CE /* LaunchScreen.storyboard in Resources */,
-				6D585FCD25C6D7A400DDD4CE /* Development in Resources */,
 				6D585E0E25BF70AE00DDD4CE /* Assets.xcassets in Resources */,
 				6D585E0C25BF70AD00DDD4CE /* Main.storyboard in Resources */,
 			);
@@ -225,8 +225,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D585FB425C6D72700DDD4CE /* Release in Resources */,
-				6D585FB525C6D72700DDD4CE /* Development in Resources */,
+				6D585FDE25C6DED100DDD4CE /* Release in Resources */,
+				6D585FDF25C6DED100DDD4CE /* Development in Resources */,
 				6D585E2C25BF742700DDD4CE /* LaunchScreen.storyboard in Resources */,
 				6D585E2D25BF742700DDD4CE /* Assets.xcassets in Resources */,
 				6D585E2F25BF742700DDD4CE /* Main.storyboard in Resources */,
