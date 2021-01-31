@@ -38,8 +38,7 @@ Backup[ ]of[ ]*.numbers/
 
 # Cocoapods
 Pods/
-GoogleService-Info.release.plist
-GoogleService-Info.debug.plist	
+GoogleService-Info.plist
 
 codesigndoc
 codesigndoc_exports/
