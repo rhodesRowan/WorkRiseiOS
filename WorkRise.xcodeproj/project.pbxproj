@@ -20,10 +20,6 @@
 		6D585E2C25BF742700DDD4CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D585E0F25BF70AE00DDD4CE /* LaunchScreen.storyboard */; };
 		6D585E2D25BF742700DDD4CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D585E0D25BF70AE00DDD4CE /* Assets.xcassets */; };
 		6D585E2F25BF742700DDD4CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D585E0A25BF70AD00DDD4CE /* Main.storyboard */; };
-		6D585FDE25C6DED100DDD4CE /* Release in Resources */ = {isa = PBXBuildFile; fileRef = 6D585FDD25C6DEB500DDD4CE /* Release */; };
-		6D585FDF25C6DED100DDD4CE /* Development in Resources */ = {isa = PBXBuildFile; fileRef = 6D585FDC25C6DEAA00DDD4CE /* Development */; };
-		6D585FE225C6DED700DDD4CE /* Release in Resources */ = {isa = PBXBuildFile; fileRef = 6D585FDD25C6DEB500DDD4CE /* Release */; };
-		6D585FE325C6DED700DDD4CE /* Development in Resources */ = {isa = PBXBuildFile; fileRef = 6D585FDC25C6DEAA00DDD4CE /* Development */; };
 		870AB7397D8225F24B55028B /* Pods_WorkRise_Development.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EBC77733383F2C4045591FC /* Pods_WorkRise_Development.framework */; };
 		BD45298A23588FDB424EFD3A /* Pods_WorkRise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB01423F73EBDD0455B941AB /* Pods_WorkRise.framework */; };
 /* End PBXBuildFile section */
@@ -41,8 +37,8 @@
 		6D585E1225BF70AE00DDD4CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D585E3325BF742700DDD4CE /* WorkRise-Development.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WorkRise-Development.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D585E3425BF742700DDD4CE /* Info.debug.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.debug.plist; path = /Users/rowan_rhodes/git/WorkRise/Info.debug.plist; sourceTree = "<absolute>"; };
-		6D585FDC25C6DEAA00DDD4CE /* Development */ = {isa = PBXFileReference; lastKnownFileType = text; name = Development; path = WorkRise/Development; sourceTree = SOURCE_ROOT; };
-		6D585FDD25C6DEB500DDD4CE /* Release */ = {isa = PBXFileReference; lastKnownFileType = text; name = Release; path = WorkRise/Release; sourceTree = SOURCE_ROOT; };
+		6D5860D125CC656400DDD4CE /* Release */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Release; sourceTree = "<group>"; };
+		6D5860D225CC657100DDD4CE /* Development */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Development; sourceTree = "<group>"; };
 		AB01423F73EBDD0455B941AB /* Pods_WorkRise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkRise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C469AE1DCF9302757101A088 /* Pods-WorkRise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkRise.debug.xcconfig"; path = "Target Support Files/Pods-WorkRise/Pods-WorkRise.debug.xcconfig"; sourceTree = "<group>"; };
 		DCCF9C154C8FE7435F0AE3C5 /* Pods-WorkRise-Development.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkRise-Development.release.xcconfig"; path = "Target Support Files/Pods-WorkRise-Development/Pods-WorkRise-Development.release.xcconfig"; sourceTree = "<group>"; };
@@ -112,8 +108,8 @@
 		6D585E0325BF70AD00DDD4CE /* WorkRise */ = {
 			isa = PBXGroup;
 			children = (
-				6D585FDD25C6DEB500DDD4CE /* Release */,
-				6D585FDC25C6DEAA00DDD4CE /* Development */,
+				6D5860D225CC657100DDD4CE /* Development */,
+				6D5860D125CC656400DDD4CE /* Release */,
 				6D585E0425BF70AD00DDD4CE /* AppDelegate.swift */,
 				6D585E0625BF70AD00DDD4CE /* SceneDelegate.swift */,
 				6D585E0825BF70AD00DDD4CE /* ViewController.swift */,
@@ -157,6 +153,7 @@
 				6D585E2825BF742700DDD4CE /* Frameworks */,
 				6D585E2A25BF742700DDD4CE /* Resources */,
 				5072A0AFEDDFE07E8A4D8336 /* [CP] Embed Pods Frameworks */,
+				6D58605525CA025400DDD4CE /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -205,8 +202,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D585FE225C6DED700DDD4CE /* Release in Resources */,
-				6D585FE325C6DED700DDD4CE /* Development in Resources */,
 				6D585E1125BF70AE00DDD4CE /* LaunchScreen.storyboard in Resources */,
 				6D585E0E25BF70AE00DDD4CE /* Assets.xcassets in Resources */,
 				6D585E0C25BF70AD00DDD4CE /* Main.storyboard in Resources */,
@@ -217,8 +212,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D585FDE25C6DED100DDD4CE /* Release in Resources */,
-				6D585FDF25C6DED100DDD4CE /* Development in Resources */,
 				6D585E2C25BF742700DDD4CE /* LaunchScreen.storyboard in Resources */,
 				6D585E2D25BF742700DDD4CE /* Assets.xcassets in Resources */,
 				6D585E2F25BF742700DDD4CE /* Main.storyboard in Resources */,
@@ -266,6 +259,23 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WorkRise-Development/Pods-WorkRise-Development-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		6D58605525CA025400DDD4CE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Name of the resource we're selectively copying\nGOOGLESERVICE_INFO_PLIST=GoogleService-Info.plist\n\n# Get references to dev and prod versions of the GoogleService-Info.plist\n# NOTE: These should only live on the file system and should NOT be part of the target (since we'll be adding them to the target manually)\nGOOGLESERVICE_INFO_DEV=${PROJECT_DIR}/${PROJECT}/Development/${GOOGLESERVICE_INFO_PLIST}\nGOOGLESERVICE_INFO_PROD=${PROJECT_DIR}/${PROJECT}/Release/${GOOGLESERVICE_INFO_PLIST}\n\n# Make sure the dev version of GoogleService-Info.plist exist\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_DEV}\"\nif [ ! -f $GOOGLESERVICE_INFO_DEV ]\nthen\n    echo \"No Development GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\n    exit 1\nfi\n\n# Make sure the prod version of GoogleService-Info.plist exists\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_PROD}\"\nif [ ! -f $GOOGLESERVICE_INFO_PROD ]\nthen\n    echo \"No Production GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\n    exit 1\nfi\n\n# Get a reference to the destination location for the GoogleService-Info.plist\nPLIST_DESTINATION=${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\necho \"Will copy ${GOOGLESERVICE_INFO_PLIST} to final destination: ${PLIST_DESTINATION}\"\n\n# Copy over the prod GoogleService-Info.plist for Release builds\nif [ \"${CONFIGURATION}\" == \"Release\" ]\nthen\n    echo \"Using ${GOOGLESERVICE_INFO_PROD}\"\n    cp \"${GOOGLESERVICE_INFO_PROD}\" \"${PLIST_DESTINATION}\"\nelse\n    echo \"Using ${GOOGLESERVICE_INFO_DEV}\"\n    cp \"${GOOGLESERVICE_INFO_DEV}\" \"${PLIST_DESTINATION}\"\nfi\n";
 		};
 		9DC5939F4F786B359013AD9E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
