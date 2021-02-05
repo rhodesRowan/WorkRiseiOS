@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		49E804C22894F1C6C7C667AA /* Pods_WorkRise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB01423F73EBDD0455B941AB /* Pods_WorkRise.framework */; };
+		6D260C2125CD955200F6C466 /* Pods_WorkRise_Development.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D260C2025CD955200F6C466 /* Pods_WorkRise_Development.framework */; };
 		6D585E0525BF70AD00DDD4CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D585E0425BF70AD00DDD4CE /* AppDelegate.swift */; };
 		6D585E0725BF70AD00DDD4CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D585E0625BF70AD00DDD4CE /* SceneDelegate.swift */; };
 		6D585E0925BF70AD00DDD4CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D585E0825BF70AD00DDD4CE /* ViewController.swift */; };
@@ -20,13 +21,13 @@
 		6D585E2C25BF742700DDD4CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D585E0F25BF70AE00DDD4CE /* LaunchScreen.storyboard */; };
 		6D585E2D25BF742700DDD4CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D585E0D25BF70AE00DDD4CE /* Assets.xcassets */; };
 		6D585E2F25BF742700DDD4CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D585E0A25BF70AD00DDD4CE /* Main.storyboard */; };
-		870AB7397D8225F24B55028B /* Pods_WorkRise_Development.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EBC77733383F2C4045591FC /* Pods_WorkRise_Development.framework */; };
 		BD45298A23588FDB424EFD3A /* Pods_WorkRise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB01423F73EBDD0455B941AB /* Pods_WorkRise.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1EBC77733383F2C4045591FC /* Pods_WorkRise_Development.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkRise_Development.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35DBC0E03CE77539BD063B63 /* Pods-WorkRise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkRise.release.xcconfig"; path = "Target Support Files/Pods-WorkRise/Pods-WorkRise.release.xcconfig"; sourceTree = "<group>"; };
+		6D260C2025CD955200F6C466 /* Pods_WorkRise_Development.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_WorkRise_Development.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D585E0125BF70AD00DDD4CE /* WorkRise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkRise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D585E0425BF70AD00DDD4CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D585E0625BF70AD00DDD4CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				870AB7397D8225F24B55028B /* Pods_WorkRise_Development.framework in Frameworks */,
+				6D260C2125CD955200F6C466 /* Pods_WorkRise_Development.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +70,7 @@
 		0A673FB5CBA24EBC28AB84D5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6D260C2025CD955200F6C466 /* Pods_WorkRise_Development.framework */,
 				AB01423F73EBDD0455B941AB /* Pods_WorkRise.framework */,
 				1EBC77733383F2C4045591FC /* Pods_WorkRise_Development.framework */,
 			);
@@ -134,7 +136,8 @@
 				6D585DFE25BF70AD00DDD4CE /* Frameworks */,
 				6D585DFF25BF70AD00DDD4CE /* Resources */,
 				9DC5939F4F786B359013AD9E /* [CP] Embed Pods Frameworks */,
-				6D260BF925CD8F0300F6C466 /* ShellScript */,
+				6D260BF925CD8F0300F6C466 /* Copy GoogleService-Info.plist */,
+				6D260C2225CD955F00F6C466 /* Firebase Crashlytics */,
 			);
 			buildRules = (
 			);
@@ -155,6 +158,7 @@
 				6D585E2A25BF742700DDD4CE /* Resources */,
 				5072A0AFEDDFE07E8A4D8336 /* [CP] Embed Pods Frameworks */,
 				6D58605525CA025400DDD4CE /* Copy GoogleService-Info.plist */,
+				6D260C2325CD95AB00F6C466 /* Firebase-Crashlytics */,
 			);
 			buildRules = (
 			);
@@ -261,7 +265,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WorkRise-Development/Pods-WorkRise-Development-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6D260BF925CD8F0300F6C466 /* ShellScript */ = {
+		6D260BF925CD8F0300F6C466 /* Copy GoogleService-Info.plist */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -270,6 +274,7 @@
 			);
 			inputPaths = (
 			);
+			name = "Copy GoogleService-Info.plist";
 			outputFileListPaths = (
 			);
 			outputPaths = (
@@ -277,6 +282,46 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Name of the resource we're selectively copying\nGOOGLESERVICE_INFO_PLIST=GoogleService-Info.plist\n\n# Get references to dev and prod versions of the GoogleService-Info.plist\n# NOTE: These should only live on the file system and should NOT be part of the target (since we'll be adding them to the target manually)\nGOOGLESERVICE_INFO_DEV=${PROJECT_DIR}/${PROJECT}/Development/${GOOGLESERVICE_INFO_PLIST}\nGOOGLESERVICE_INFO_PROD=${PROJECT_DIR}/${PROJECT}/Release/${GOOGLESERVICE_INFO_PLIST}\n\n# Make sure the dev version of GoogleService-Info.plist exist\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_DEV}\"\nif [ ! -f $GOOGLESERVICE_INFO_DEV ]\nthen\n    echo \"No Development GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\n    exit 1\nfi\n\n# Make sure the prod version of GoogleService-Info.plist exists\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_PROD}\"\nif [ ! -f $GOOGLESERVICE_INFO_PROD ]\nthen\n    echo \"No Production GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\n    exit 1\nfi\n\n# Get a reference to the destination location for the GoogleService-Info.plist\nPLIST_DESTINATION=${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\necho \"Will copy ${GOOGLESERVICE_INFO_PLIST} to final destination: ${PLIST_DESTINATION}\"\n\n# Copy over the prod GoogleService-Info.plist for Release builds\nif [ \"${CONFIGURATION}\" == \"Release\" ]\nthen\n    echo \"Using ${GOOGLESERVICE_INFO_PROD}\"\n    cp \"${GOOGLESERVICE_INFO_PROD}\" \"${PLIST_DESTINATION}\"\nelse\n    echo \"Using ${GOOGLESERVICE_INFO_DEV}\"\n    cp \"${GOOGLESERVICE_INFO_DEV}\" \"${PLIST_DESTINATION}\"\nfi\n";
+		};
+		6D260C2225CD955F00F6C466 /* Firebase Crashlytics */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "Firebase Crashlytics";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
+		};
+		6D260C2325CD95AB00F6C466 /* Firebase-Crashlytics */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "Firebase-Crashlytics";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
 		};
 		6D58605525CA025400DDD4CE /* Copy GoogleService-Info.plist */ = {
 			isa = PBXShellScriptBuildPhase;
