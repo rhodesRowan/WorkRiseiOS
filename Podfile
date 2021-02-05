@@ -4,6 +4,8 @@ platform :ios, '11.0'
 def shared_pods
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
+  pod 'Firebase/Crashlytics'
+  pod 'Firebase/Analytics'
 end
 
 target 'WorkRise' do
