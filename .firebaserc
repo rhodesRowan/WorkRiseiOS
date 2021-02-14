@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "workrise-development",
+    "release": "workrise-1da1a"
+  }
+}

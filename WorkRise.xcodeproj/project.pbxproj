@@ -159,6 +159,7 @@
 				5072A0AFEDDFE07E8A4D8336 /* [CP] Embed Pods Frameworks */,
 				6D58605525CA025400DDD4CE /* Copy GoogleService-Info.plist */,
 				6D260C2325CD95AB00F6C466 /* Firebase-Crashlytics */,
+				6D260C3C25D97B0900F6C466 /* Swiftlint */,
 			);
 			buildRules = (
 			);
@@ -322,6 +323,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
+		};
+		6D260C3C25D97B0900F6C466 /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
 		};
 		6D58605525CA025400DDD4CE /* Copy GoogleService-Info.plist */ = {
 			isa = PBXShellScriptBuildPhase;

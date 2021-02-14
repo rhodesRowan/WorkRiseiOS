@@ -6,6 +6,7 @@ def shared_pods
   pod 'Firebase/Auth'
   pod 'Firebase/Crashlytics'
   pod 'Firebase/Analytics'
+  pod 'SwiftLint'
 end
 
 target 'WorkRise' do
