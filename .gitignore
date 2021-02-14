@@ -42,3 +42,15 @@ GoogleService-Info.plist
 
 codesigndoc
 codesigndoc_exports/
+
+
+# firebase-functions
+firestore-debug.log
+ui-debug.log
+firebase.json	
+firestore.indexes.json
+Authorization.js	
+firestore-debug.log	
+node_modules		
+package-lock.json	
+package.json		
