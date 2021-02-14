@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		49E804C22894F1C6C7C667AA /* Pods_WorkRise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB01423F73EBDD0455B941AB /* Pods_WorkRise.framework */; };
 		6D260C2125CD955200F6C466 /* Pods_WorkRise_Development.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D260C2025CD955200F6C466 /* Pods_WorkRise_Development.framework */; };
+		6D260C4625D97F9F00F6C466 /* WorkRiseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D260C4525D97F9F00F6C466 /* WorkRiseTests.swift */; };
+		6D260C5725D97FB300F6C466 /* WorkRiseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D260C5625D97FB300F6C466 /* WorkRiseUITests.swift */; };
 		6D585E0525BF70AD00DDD4CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D585E0425BF70AD00DDD4CE /* AppDelegate.swift */; };
 		6D585E0725BF70AD00DDD4CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D585E0625BF70AD00DDD4CE /* SceneDelegate.swift */; };
 		6D585E0925BF70AD00DDD4CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D585E0825BF70AD00DDD4CE /* ViewController.swift */; };
@@ -24,10 +26,33 @@
 		BD45298A23588FDB424EFD3A /* Pods_WorkRise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB01423F73EBDD0455B941AB /* Pods_WorkRise.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		6D260C4825D97F9F00F6C466 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D585DF925BF70AD00DDD4CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D585E0025BF70AD00DDD4CE;
+			remoteInfo = WorkRise;
+		};
+		6D260C5925D97FB300F6C466 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D585DF925BF70AD00DDD4CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D585E0025BF70AD00DDD4CE;
+			remoteInfo = WorkRise;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		1EBC77733383F2C4045591FC /* Pods_WorkRise_Development.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkRise_Development.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35DBC0E03CE77539BD063B63 /* Pods-WorkRise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkRise.release.xcconfig"; path = "Target Support Files/Pods-WorkRise/Pods-WorkRise.release.xcconfig"; sourceTree = "<group>"; };
 		6D260C2025CD955200F6C466 /* Pods_WorkRise_Development.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_WorkRise_Development.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D260C4325D97F9F00F6C466 /* WorkRiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkRiseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D260C4525D97F9F00F6C466 /* WorkRiseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkRiseTests.swift; sourceTree = "<group>"; };
+		6D260C4725D97F9F00F6C466 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D260C5425D97FB300F6C466 /* WorkRiseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkRiseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D260C5625D97FB300F6C466 /* WorkRiseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkRiseUITests.swift; sourceTree = "<group>"; };
+		6D260C5825D97FB300F6C466 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D585E0125BF70AD00DDD4CE /* WorkRise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkRise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D585E0425BF70AD00DDD4CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D585E0625BF70AD00DDD4CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +72,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6D260C4025D97F9F00F6C466 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D260C5125D97FB300F6C466 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6D585DFE25BF70AD00DDD4CE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -88,10 +127,30 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		6D260C4425D97F9F00F6C466 /* WorkRiseTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D260C4525D97F9F00F6C466 /* WorkRiseTests.swift */,
+				6D260C4725D97F9F00F6C466 /* Info.plist */,
+			);
+			path = WorkRiseTests;
+			sourceTree = "<group>";
+		};
+		6D260C5525D97FB300F6C466 /* WorkRiseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D260C5625D97FB300F6C466 /* WorkRiseUITests.swift */,
+				6D260C5825D97FB300F6C466 /* Info.plist */,
+			);
+			path = WorkRiseUITests;
+			sourceTree = "<group>";
+		};
 		6D585DF825BF70AD00DDD4CE = {
 			isa = PBXGroup;
 			children = (
 				6D585E0325BF70AD00DDD4CE /* WorkRise */,
+				6D260C4425D97F9F00F6C466 /* WorkRiseTests */,
+				6D260C5525D97FB300F6C466 /* WorkRiseUITests */,
 				6D585E0225BF70AD00DDD4CE /* Products */,
 				0AE5AB465E65CF983426D02F /* Pods */,
 				0A673FB5CBA24EBC28AB84D5 /* Frameworks */,
@@ -103,6 +162,8 @@
 			children = (
 				6D585E0125BF70AD00DDD4CE /* WorkRise.app */,
 				6D585E3325BF742700DDD4CE /* WorkRise-Development.app */,
+				6D260C4325D97F9F00F6C466 /* WorkRiseTests.xctest */,
+				6D260C5425D97FB300F6C466 /* WorkRiseUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,6 +188,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6D260C4225D97F9F00F6C466 /* WorkRiseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D260C4A25D97F9F00F6C466 /* Build configuration list for PBXNativeTarget "WorkRiseTests" */;
+			buildPhases = (
+				6D260C3F25D97F9F00F6C466 /* Sources */,
+				6D260C4025D97F9F00F6C466 /* Frameworks */,
+				6D260C4125D97F9F00F6C466 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D260C4925D97F9F00F6C466 /* PBXTargetDependency */,
+			);
+			name = WorkRiseTests;
+			productName = WorkRiseTests;
+			productReference = 6D260C4325D97F9F00F6C466 /* WorkRiseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D260C5325D97FB300F6C466 /* WorkRiseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D260C5B25D97FB300F6C466 /* Build configuration list for PBXNativeTarget "WorkRiseUITests" */;
+			buildPhases = (
+				6D260C5025D97FB300F6C466 /* Sources */,
+				6D260C5125D97FB300F6C466 /* Frameworks */,
+				6D260C5225D97FB300F6C466 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D260C5A25D97FB300F6C466 /* PBXTargetDependency */,
+			);
+			name = WorkRiseUITests;
+			productName = WorkRiseUITests;
+			productReference = 6D260C5425D97FB300F6C466 /* WorkRiseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		6D585E0025BF70AD00DDD4CE /* WorkRise */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D585E1525BF70AE00DDD4CE /* Build configuration list for PBXNativeTarget "WorkRise" */;
@@ -176,9 +273,17 @@
 		6D585DF925BF70AD00DDD4CE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1230;
+				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
+					6D260C4225D97F9F00F6C466 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 6D585E0025BF70AD00DDD4CE;
+					};
+					6D260C5325D97FB300F6C466 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 6D585E0025BF70AD00DDD4CE;
+					};
 					6D585E0025BF70AD00DDD4CE = {
 						CreatedOnToolsVersion = 12.3;
 					};
@@ -199,11 +304,27 @@
 			targets = (
 				6D585E0025BF70AD00DDD4CE /* WorkRise */,
 				6D585E2225BF742700DDD4CE /* WorkRise-Development */,
+				6D260C4225D97F9F00F6C466 /* WorkRiseTests */,
+				6D260C5325D97FB300F6C466 /* WorkRiseUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6D260C4125D97F9F00F6C466 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D260C5225D97FB300F6C466 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6D585DFF25BF70AD00DDD4CE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -402,6 +523,22 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6D260C3F25D97F9F00F6C466 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D260C4625D97F9F00F6C466 /* WorkRiseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D260C5025D97FB300F6C466 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D260C5725D97FB300F6C466 /* WorkRiseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6D585DFD25BF70AD00DDD4CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -424,6 +561,19 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		6D260C4925D97F9F00F6C466 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D585E0025BF70AD00DDD4CE /* WorkRise */;
+			targetProxy = 6D260C4825D97F9F00F6C466 /* PBXContainerItemProxy */;
+		};
+		6D260C5A25D97FB300F6C466 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D585E0025BF70AD00DDD4CE /* WorkRise */;
+			targetProxy = 6D260C5925D97FB300F6C466 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		6D585E0A25BF70AD00DDD4CE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -444,6 +594,88 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		6D260C4B25D97F9F00F6C466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AZ4P4F7384;
+				INFOPLIST_FILE = WorkRiseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rowanrhodes.WorkRiseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkRise.app/WorkRise";
+			};
+			name = Debug;
+		};
+		6D260C4C25D97F9F00F6C466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AZ4P4F7384;
+				INFOPLIST_FILE = WorkRiseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rowanrhodes.WorkRiseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkRise.app/WorkRise";
+			};
+			name = Release;
+		};
+		6D260C5C25D97FB300F6C466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AZ4P4F7384;
+				INFOPLIST_FILE = WorkRiseUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rowanrhodes.WorkRiseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WorkRise;
+			};
+			name = Debug;
+		};
+		6D260C5D25D97FB300F6C466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AZ4P4F7384;
+				INFOPLIST_FILE = WorkRiseUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rowanrhodes.WorkRiseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WorkRise;
+			};
+			name = Release;
+		};
 		6D585E1325BF70AE00DDD4CE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -657,6 +889,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6D260C4A25D97F9F00F6C466 /* Build configuration list for PBXNativeTarget "WorkRiseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D260C4B25D97F9F00F6C466 /* Debug */,
+				6D260C4C25D97F9F00F6C466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D260C5B25D97FB300F6C466 /* Build configuration list for PBXNativeTarget "WorkRiseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D260C5C25D97FB300F6C466 /* Debug */,
+				6D260C5D25D97FB300F6C466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6D585DFC25BF70AD00DDD4CE /* Build configuration list for PBXProject "WorkRise" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -28,6 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6D260C4225D97F9F00F6C466"
+               BuildableName = "WorkRiseTests.xctest"
+               BlueprintName = "WorkRiseTests"
+               ReferencedContainer = "container:WorkRise.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6D260C5325D97FB300F6C466"
+               BuildableName = "WorkRiseUITests.xctest"
+               BlueprintName = "WorkRiseUITests"
+               ReferencedContainer = "container:WorkRise.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
